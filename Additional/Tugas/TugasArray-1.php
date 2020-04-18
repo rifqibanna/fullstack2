@@ -153,27 +153,28 @@ $laptop = [
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LAPTOP GAMING</title>
+    <link rel="stylesheet" href="./pindad.css">
 </head>
 
 
 <body>
     <h1 style="text-align: center"> JENIS LAPTOP GAMING </h1>
     <table border="3">
-        <tr>
+        <tr class="mantul">
 
-            <th> logo</th>
-            <th> Jenis Laptop</th>
-            <th> Merk Laptop</th>
-            <th> Spesifikasi</th>
+            <th> GAMBAR LAPTOP</th>
+            <th> JENIS LAPTOP</th>
+            <th> MERK LAPTOP</th>
+            <th> PROCESSOR</th>
             <th> OS</th>
-            <th> Display</th>
-            <th> Chipset</th>
-            <th> Memory</th>
-            <th> Rating</th>
-            <th> Harga</th>
-            <th> Telepon</th>
-            <th> Email</th>
-            <th> Website</th>
+            <th> DISPLAY</th>
+            <th> CHIPSET</th>
+            <th> MEMORY</th>
+            <th> RATING</th>
+            <th> HARGA</th>
+            <th> TELEPON</th>
+            <th> EMAIL</th>
+            <th> WEBSITE</th>
         </tr>
 
         <?php foreach ($laptop as $lpt) : ?>
@@ -181,34 +182,34 @@ $laptop = [
                 <td>
                     <img style="width: 120px " src="./images/<?= $lpt['logo'] ?>" />
                 </td>
-                <td style="text-align: center"><?= $lpt['jenislaptop'] ?></td>
-                <td style="text-align: center"><?= $lpt['merklaptop'] ?></td>
-                <td style="text-align: center"><?= $lpt['spesifikasi'] ?></td>
-                <td style="text-align: center">
+                <td class="desain" style="text-align: center"><?= $lpt['jenislaptop'] ?></td>
+                <td class="desain" style="text-align: center"><?= $lpt['merklaptop'] ?></td>
+                <td class="desain" style="text-align: center"><?= $lpt['spesifikasi'] ?></td>
+                <td class="desain" style="text-align: center">
                     <?php foreach ($lpt['os'] as $os) : ?>
                         <?= $os . "<br>"; ?>
                     <?php endforeach ?>
                 </td>
-                <td style="text-align: center">
+                <td class="desain" style="text-align: center">
                     <?php foreach ($lpt['display'] as $display) : ?>
                         <?= $display . "<br>"; ?>
                     <?php endforeach ?>
                 </td>
-                <td style="text-align: center"><?= $lpt['chipset'] ?></td>
-                <td style="text-align: center">
+                <td class="desain" style="text-align: center"><?= $lpt['chipset'] ?></td>
+                <td class="desain" style="text-align: center">
                     <?php foreach ($lpt['memory'] as $memory) : ?>
                         <?= $memory . "<br>"; ?>
                     <?php endforeach ?>
                 </td>
-                <td style="text-align: center"><?= $lpt['rating'] ?></td>
-                <td style="text-align: center"><?= $lpt['harga'] ?></td>
-                <td>
+                <td class="desain" style="text-align: center"><?= $lpt['rating'] ?></td>
+                <td class="desain" style="text-align: center"><?= $lpt['harga'] ?></td>
+                <td class="desain">
                     <?php foreach ($lpt['telpon'] as $telp) : ?>
                         <?= $telp . "<br>"; ?>
                     <?php endforeach ?>
                 </td>
-                <td style="text-align: center"><?= $lpt['email'] ?></td>
-                <td style="text-align: center"><?= $lpt['website'] ?></td>
+                <td class="desain" style="text-align: center"><?= $lpt['email'] ?></td>
+                <td class="desain" style="text-align: center"><?= $lpt['website'] ?></td>
             <?php endforeach ?>
             </tr>
 
