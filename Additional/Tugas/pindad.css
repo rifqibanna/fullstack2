@@ -18,4 +18,9 @@ h1 {
 .mantul {
     background-color: darkslategrey;
     color: white;
+    font-family: monospace;
+}
+
+.desain1 {
+    background-color: rgb(89, 91, 94);
 }

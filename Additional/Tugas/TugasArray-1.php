@@ -179,7 +179,7 @@ $laptop = [
 
         <?php foreach ($laptop as $lpt) : ?>
             <tr>
-                <td>
+                <td class="desain1">
                     <img style="width: 120px " src="./images/<?= $lpt['logo'] ?>" />
                 </td>
                 <td class="desain" style="text-align: center"><?= $lpt['jenislaptop'] ?></td>
