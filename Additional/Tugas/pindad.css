@@ -1,6 +1,8 @@
 body,
 html {
-    background-color: teal;
+    background: url(./images/kurt-cotoaga-cqbLg3lZEpk-unsplash.jpg);
+    background-size: cover;
+
 }
 
 h1 {
