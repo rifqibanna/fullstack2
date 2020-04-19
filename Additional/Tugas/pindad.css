@@ -2,11 +2,12 @@ body,
 html {
     background: url(./images/kurt-cotoaga-cqbLg3lZEpk-unsplash.jpg);
     background-size: cover;
+    margin-bottom: 20px;
 
 }
 
 h1 {
-    color: white;
+    color: black;
     font-weight: bold;
     font-family: 'Lucida Sans';
 }
@@ -25,4 +26,10 @@ h1 {
 
 .desain1 {
     background-color: rgb(89, 91, 94);
+}
+
+.navigasi {
+    background-color: rgba(44, 44, 44, 0.13);
+    padding: 10px;
+    margin-bottom: 20px;
 }

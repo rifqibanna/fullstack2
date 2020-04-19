@@ -158,7 +158,21 @@ $laptop = [
 
 
 <body>
-    <h1 style="text-align: center"> JENIS LAPTOP GAMING </h1>
+    <div class="header">
+        <div class="row">
+            <div class="col">
+                <img style="width: 100px" src="./images/rexus_logo_05-1030x1030-600x315.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="navigasi">
+        <div class="row">
+            <div class="col">
+                <h1 style="text-align: center"> KATALOG LAPTOP GAMING </h1>
+                <hr color="black" width="25%" align="center">
+            </div>
+        </div>
+    </div>
     <table border="3">
         <tr class="mantul">
 
