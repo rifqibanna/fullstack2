@@ -12,6 +12,17 @@ h1 {
     font-family: 'Lucida Sans';
 }
 
+.header {
+    display: flex;
+    background-color: rgba(44, 44, 44, 0.13);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.gbr {
+    flex: 1;
+}
+
 .desain {
     background-color: whitesmoke;
     color: black;
@@ -29,7 +40,6 @@ h1 {
 }
 
 .navigasi {
-    background-color: rgba(44, 44, 44, 0.13);
-    padding: 10px;
-    margin-bottom: 20px;
+    flex: 10;
+    margin-right: 150px;
 }

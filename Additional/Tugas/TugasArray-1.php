@@ -159,18 +159,12 @@ $laptop = [
 
 <body>
     <div class="header">
-        <div class="row">
-            <div class="col">
-                <img style="width: 100px" src="./images/rexus_logo_05-1030x1030-600x315.png" alt="">
-            </div>
+        <div class="gbr">
+            <img style="width: 200px" src="./images/rexus_logo_05-1030x1030-600x315.png" alt="">
         </div>
-    </div>
-    <div class="navigasi">
-        <div class="row">
-            <div class="col">
-                <h1 style="text-align: center"> KATALOG LAPTOP GAMING </h1>
-                <hr color="black" width="25%" align="center">
-            </div>
+        <div class="navigasi">
+            <h1 style="text-align: center"> KATALOG LAPTOP GAMING </h1>
+            <hr color="black" width="25%" align="center">
         </div>
     </div>
     <table border="3">
