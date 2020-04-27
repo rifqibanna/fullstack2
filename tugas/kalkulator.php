@@ -27,13 +27,14 @@ if (isset($_POST["hitung"])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./zzz.css">
+    <link rel="stylesheet" href="./kalkulator.css">
 </head>
 
 
 <body>
     <div class="kalkulator">
         <h1>KALKULATOR</h1>
+        <hr>
         <form action="" method="POST">
             <input type="number" name="angka1" class="bil" placeholder="masukkan bilangan satu">
             <input type="number" name="angka2" class="bil" placeholder="masukkan bilangan dua">
@@ -45,13 +46,13 @@ if (isset($_POST["hitung"])) {
                 <option value="/">/</option>
             </select>
             <input type="submit" value="HITUNG" name="hitung" class="tombol">
-            <input type="reset" value="HAPUS" class="clear">
+
             <?php if (isset($_POST['hitung'])) { ?>
                 <input type="text" value="<?php echo $hasil; ?>" class="bil">
             <?php } else { ?>
-                <input type="text" value="0" class="bil">
+                <input type="text" placeholder="hasil" class="bil">
             <?php } ?>
-
+            <input type="reset" value="HAPUS" class="clear">
         </form>
     </div>
 </body>
