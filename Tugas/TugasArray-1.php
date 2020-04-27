@@ -152,20 +152,20 @@ $laptop = [
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LAPTOP GAMING</title>
 
-    <link rel="stylesheet" href="./pindad.css">
+    <link rel="stylesheet" href="./tugasArray1.css>
 
 </head>
 
 
 <body>
-    <div class="header">
-        <div class="gbr">
-            <img style="width: 200px" src="./images/rexus_logo_05-1030x1030-600x315.png" alt="">
-        </div>
-        <div class="navigasi">
-            <h1 style="text-align: center"> KATALOG LAPTOP GAMING </h1>
-            <hr color="black" width="25%" align="center">
-        </div>
+    <div class=" header">
+    <div class="gbr">
+        <img style="width: 200px" src="./images/rexus_logo_05-1030x1030-600x315.png" alt="">
+    </div>
+    <div class="navigasi">
+        <h1 style="text-align: center"> KATALOG LAPTOP GAMING </h1>
+        <hr color="black" width="25%" align="center">
+    </div>
     </div>
     <table border="3">
         <tr class="mantul">
@@ -226,6 +226,6 @@ $laptop = [
 
 
 
-</body>
+    </body>
 
 </html>
