@@ -52,7 +52,7 @@ if (isset($_POST["hitung"])) {
             <?php } else { ?>
                 <input type="text" placeholder="hasil" class="bil">
             <?php } ?>
-            <input type="reset" value="HAPUS" class="clear">
+            <a href="./kalkulator.php"> <input type="submit" value="HAPUS" class="clear"> </a>
         </form>
     </div>
 </body>
