@@ -10,7 +10,7 @@
 
 <body>
     <div class="login">
-        <form action="login.php" method="POST">
+        <form action="" method="POST">
             <table>
 
                 <td> <img class="gambar" src="./images/facebook_logos_PNG19751.png" alt=""></td>
@@ -21,7 +21,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <input type="text" name="password" class="tombol1" placeholder="password">
+                        <input type="password" name="password" class="tombol1" placeholder="password">
                     </td>
                 </tr>
                 <tr>
@@ -37,5 +37,20 @@
         </form>
     </div>
 </body>
+
+<?php
+if (isset($_POST['submit'])) {
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+
+    echo  "SELAMAT KAMU BERHASIL MASUK!" . "<br>" . "username kamu adalah $username" . " dan password kamu adalah $password";
+}
+
+
+?>
+
+
+
+
 
 </html>

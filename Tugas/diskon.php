@@ -69,7 +69,6 @@ if (isset($_POST["tombol3"])) {
     <div class="diskon">
         <form action="<?= $_SERVER['PHP_SELF']; ?>" method="POST">
             <table>
-
                 <TD></TD>
                 <div class="judul">
                     <td style="margin-left: -30px"> TABEL PERHITUNGAN
